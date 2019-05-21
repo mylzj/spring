@@ -21,7 +21,9 @@ public class ApplicationTests {
 //        braveKnight.embrakQuest();
 
         //使用上下文创建bean注入依赖
-//
+        ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+        BraveKnight bean = context.getBean(BraveKnight.class);
+        bean.embrakQuest();
     }
 
 }

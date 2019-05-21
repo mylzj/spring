@@ -23,6 +23,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--默认使用springboot自带的aspectjweaver会报错-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.6</version>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>org.mybatis.spring.boot</groupId>-->
             <!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
