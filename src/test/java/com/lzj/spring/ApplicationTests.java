@@ -1,4 +1,4 @@
-package com.lzj.spring.spring;
+package com.lzj.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
