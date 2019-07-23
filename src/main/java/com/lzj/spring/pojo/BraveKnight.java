@@ -13,12 +13,12 @@ public class BraveKnight implements Knight {
 
     private Quest quest;
 
-//    public BraveKnight(){};
-    public BraveKnight(Quest quest){
-     this.quest=quest;
+    //    public BraveKnight(){};
+    public BraveKnight(Quest quest) {
+        this.quest = quest;
     }
 
-    public void embrakQuest(){
+    public void embrakQuest() {
         quest.commonQuest();
     }
 }
